@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using Catalog.DataAccessLayer;
 
 namespace Catalog
 {
@@ -35,6 +37,13 @@ namespace Catalog
 
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
+
+            Database.SetInitializer(new RepositoryInitializer());
+            using (var db = new RepositoryContext())
+            {
+                db.Database.Initialize(true);
+            }
+
         }
     }
 }

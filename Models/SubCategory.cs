@@ -17,5 +17,7 @@ namespace Catalog.Models
 
         public virtual Category Category { get; set; }
 
+        public virtual ICollection<Parameter> Parameters { get; set; } 
+
     }
 }

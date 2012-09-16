@@ -62,6 +62,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccessLayer\RepositoryContext.cs" />
+    <Compile Include="DataAccessLayer\RepositoryInitializer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

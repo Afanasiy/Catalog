@@ -1,0 +1,7 @@
+D:\Projects\Catalog\Catalog\bin\Catalog.dll
+D:\Projects\Catalog\Catalog\bin\Catalog.pdb
+D:\Projects\Catalog\Catalog\bin\EntityFramework.dll
+D:\Projects\Catalog\Catalog\bin\EntityFramework.xml
+D:\Projects\Catalog\Catalog\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Catalog\Catalog\obj\Debug\Catalog.dll
+D:\Projects\Catalog\Catalog\obj\Debug\Catalog.pdb

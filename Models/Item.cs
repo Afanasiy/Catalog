@@ -15,6 +15,7 @@ namespace Catalog.Models
         public Guid ValueId { get; set; }
         
         [Required]
+        [MaxLength(50)]
         public string Name { get; set; }
 
         public virtual ICollection<Value> Values { get; set; } 
