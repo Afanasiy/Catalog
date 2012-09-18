@@ -6,10 +6,10 @@ using System.Web;
 
 namespace Catalog.Models
 {
-    public class Value
+    public class Value : IEntity
     {
         [Key]
-        public Guid ValueId { get; set; }
+        public Guid Id { get; set; }
         
         [Required]    
         public Guid ParameterId { get; set; }

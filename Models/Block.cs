@@ -6,10 +6,10 @@ using System.Web;
 
 namespace Catalog.Models
 {
-    public class Block
+    public class Block : IEntity
     {
         [Key]
-        public Guid BlockId { get; set; }
+        public Guid Id { get; set; }
         
         [Required]
         [MaxLength(30)]
